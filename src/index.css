@@ -25,3 +25,10 @@ li {
   padding-left: 10%;
   padding-right: 10%;
 }
+
+.p-text {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  color: #000;
+}
