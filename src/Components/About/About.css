@@ -1,0 +1,45 @@
+.about-right h3 {
+  color: #72839b;
+  font-size: 25px;
+}
+
+.about-right p {
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 1.7;
+}
+
+.about-info {
+  display: flex;
+  gap: 4%;
+  margin-top: 40px;
+}
+
+.about-left {
+  flex-basis: 38%;
+}
+
+.about-right {
+  flex-basis: 58%;
+}
+
+.user-info {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.user-info li {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  color: #0563bb;
+}
+
+.user-info li span {
+  font-weight: 600;
+  margin-right: 5px;
+}

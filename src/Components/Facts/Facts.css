@@ -1,0 +1,34 @@
+.facts-section ul {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.facts-section ul li .icon {
+  width: 50px;
+  height: 50px;
+  background: #0563bb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.facts-section ul li h2 {
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.facts-section ul li p {
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #555;
+}
