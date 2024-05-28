@@ -1,0 +1,50 @@
+.nav-bar ul li a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: #f2f3f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #45505b;
+  transition: .3s;
+
+
+}
+
+.nav-bar {
+  position: fixed;
+  top: 25%;
+  z-index: 100;
+  background: transparent;
+  padding-left: 2%;
+}
+
+.nav-text {
+  display: none;
+  font-size: 16px;
+}
+
+.nav-bar ul li a:hover {
+  width: fit-content;
+  border-radius: 100px;
+  padding: 5px 10px;
+  background: #0563bb;
+  color: #fff;
+
+}
+
+.nav-bar ul li a:hover .nav-text {
+  display: block;
+  font-weight: 500;
+}
+
+.active {
+  background: #0563bb !important;
+  color: #fff !important;
+}
