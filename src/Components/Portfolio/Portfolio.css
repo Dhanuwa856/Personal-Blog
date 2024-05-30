@@ -1,0 +1,9 @@
+.categories-section {
+  margin-top: 50px;
+}
+
+.item-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}

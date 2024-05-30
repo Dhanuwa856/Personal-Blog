@@ -1,0 +1,63 @@
+.item-card img {
+  width: 300px;
+  transition: 1s;
+  object-fit: cover;
+  object-position: center;
+}
+
+.item-card {
+  position: relative;
+  width: 300px;
+  display: flex;
+}
+
+.card-info {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  text-align: center;
+  display: none;
+  transition: 1s;
+  color: #eee;
+
+}
+
+.card-info p {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.card-info h2 {
+  font-weight: 400;
+}
+
+.item-card:hover.item-card img {
+  filter: brightness(40%);
+}
+
+.item-card:hover .card-info {
+  display: block;
+}
+
+.card-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 7px;
+  font-size: 17px;
+}
+
+.card-icons span {
+  cursor: pointer;
+  transition: .5s;
+}
+
+.card-icons span:hover {
+  color: #0563bb;
+}
+
+.item-list {
+  margin-top: 50px;
+}

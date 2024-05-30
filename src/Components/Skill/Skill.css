@@ -1,0 +1,20 @@
+.progress-bars {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.progress-bars li .skil-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 500;
+  color: #444;
+  text-transform: uppercase;
+}
+
+.percentage {
+  display: flex;
+}
